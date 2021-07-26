@@ -1,7 +1,7 @@
 const express = require("express")
 const figureLookup = require("./numberLookup.json")
 
-const fig = 120
+const fig = 749
 
 const convertFigToText = (figure) => {
     let figureText = ''
@@ -14,9 +14,6 @@ const convertFigToText = (figure) => {
             throw new Error("Given value has to be a positive number")
         }
 
-        if(figure <=12) {
-            figureText = figureLowerThanTwelve(figure)            
-        }
         else if (figure <= 99) {
             const lookupFigure = figureLookup.find(a => a.number == figure)
             figureText = lookupFigure.german
@@ -41,35 +38,6 @@ const convertFigToText = (figure) => {
     }
     catch(err){
         console.error(err.message)
-    }
-}
-
-const figureLowerThanTwelve = (figure) => {
-    switch(figure){
-        case 1:
-            return 'eins'
-        case 2:
-            return 'zwei'
-        case 3:
-            return 'drei'
-        case 4:
-            return 'vier'
-        case 5:
-            return 'fünf'
-        case 6:
-            return 'sechs'
-        case 7:
-            return 'sieben'
-        case 8:
-            return 'acht'
-        case 9:
-            return 'neun'
-        case 10:
-            return 'zehn'
-        case 11:
-            return 'elf'
-        case 12:
-            return 'zwölf'
     }
 }
 
