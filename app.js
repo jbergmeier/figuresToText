@@ -1,7 +1,14 @@
 const express = require("express")
 const figureLookup = require("./numberLookup.json")
 
-const fig = 749
+const fig = 14
+const app = express()
+const port = 3000
+
+app.get('/api/v3/de/:number', (req, res) => {
+    const enteredNumber = req.params.number
+    res.json(convertFigToText(enteredNumber))
+})
 
 const convertFigToText = (figure) => {
     let figureText = ''
@@ -33,12 +40,18 @@ const convertFigToText = (figure) => {
             throw new Error("Zahl ist größer als 1000")
         }
 
-        console.log(`The number you entered is ${figureText}!`)
+        console.log(`The number you entered is ${figure} - ${figureText}`)
         return figureText
     }
     catch(err){
         console.error(err.message)
+        return err.message
     }
 }
 
 convertFigToText(fig)
+
+
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`)
+})
