@@ -1,0 +1,502 @@
+[
+    {
+      "number": 1,
+      "german": "eins",
+      "english": "one"
+    },
+    {
+      "number": 2,
+      "german": "zwei",
+      "english": "two"
+    },
+    {
+      "number": 3,
+      "german": "drei",
+      "english": "three"
+    },
+    {
+      "number": 4,
+      "german": "vier",
+      "english": "four"
+    },
+    {
+      "number": 5,
+      "german": "fünf",
+      "english": "five"
+    },
+    {
+      "number": 6,
+      "german": "sechs",
+      "english": "six"
+    },
+    {
+      "number": 7,
+      "german": "sieben",
+      "english": "seven"
+    },
+    {
+      "number": 8,
+      "german": "acht",
+      "english": "eight"
+    },
+    {
+      "number": 9,
+      "german": "neun",
+      "english": "nine"
+    },
+    {
+      "number": 10,
+      "german": "zehn",
+      "english": "ten"
+    },
+    {
+      "number": 11,
+      "german": "elf",
+      "english": "eleven"
+    },
+    {
+      "number": 12,
+      "german": "zwölf",
+      "english": "twelve"
+    },
+    {
+      "number": 13,
+      "german": "dreizehn",
+      "english": "thridteen"
+    },
+    {
+      "number": 14,
+      "german": "vierzehn",
+      "english": "fourteen"
+    },
+    {
+      "number": 15,
+      "german": "fünfzehn",
+      "english": "fiveteen"
+    },
+    {
+      "number": 16,
+      "german": "sechzehn",
+      "english": "sixteen"
+    },
+    {
+      "number": 17,
+      "german": "siebzehn",
+      "english": "seventeen"
+    },
+    {
+      "number": 18,
+      "german": "achtzehn",
+      "english": "eighteen"
+    },
+    {
+      "number": 19,
+      "german": "neunzehn",
+      "english": "nineteen"
+    },
+    {
+      "number": 20,
+      "german": "zwanzig",
+      "english": "twenty"
+    },
+    {
+      "number": 21,
+      "german": "einundzwanzig",
+      "english": "Twenty one"
+    },
+    {
+      "number": 22,
+      "german": "zweiundzwanzig",
+      "english": "Twenty two"
+    },
+    {
+      "number": 23,
+      "german": "dreiundzwanzig",
+      "english": "Twenty three"
+    },
+    {
+      "number": 24,
+      "german": "vierundzwanzig",
+      "english": "Twenty four"
+    },
+    {
+      "number": 25,
+      "german": "fünfundzwanzig",
+      "english": "Twenty five"
+    },
+    {
+      "number": 26,
+      "german": "sechsundzwanzig",
+      "english": "Twenty six"
+    },
+    {
+      "number": 27,
+      "german": "siebenundzwanzig",
+      "english": "Twenty seven"
+    },
+    {
+      "number": 28,
+      "german": "achtundzwanzig",
+      "english": "Twenty eight"
+    },
+    {
+      "number": 29,
+      "german": "neunundzwanzig",
+      "english": "Twenty nine"
+    },
+    {
+      "number": 30,
+      "german": "dreißig",
+      "english": "thrity"
+    },
+    {
+      "number": 31,
+      "german": "einunddreißig",
+      "english": "thirty one"
+    },
+    {
+      "number": 32,
+      "german": "zweiunddreißig",
+      "english": "thirty two"
+    },
+    {
+      "number": 33,
+      "german": "dreiunddreißig",
+      "english": "thirty three"
+    },
+    {
+      "number": 34,
+      "german": "vierunddreißig",
+      "english": "thirty four"
+    },
+    {
+      "number": 35,
+      "german": "fünfunddreißig",
+      "english": "thirty five"
+    },
+    {
+      "number": 36,
+      "german": "sechsunddreißig",
+      "english": "thirty six"
+    },
+    {
+      "number": 37,
+      "german": "siebenunddreißig",
+      "english": "thirty seven"
+    },
+    {
+      "number": 38,
+      "german": "achtunddreißig",
+      "english": "thirty eight"
+    },
+    {
+      "number": 39,
+      "german": "neununddreißig",
+      "english": "thirty nine"
+    },
+    {
+      "number": 40,
+      "german": "vierzig",
+      "english": "forty"
+    },
+    {
+      "number": 41,
+      "german": "einundvierzig",
+      "english": "forty one"
+    },
+    {
+      "number": 42,
+      "german": "zweiundvierzig",
+      "english": "forty two"
+    },
+    {
+      "number": 43,
+      "german": "dreiundvierzig",
+      "english": "forty three"
+    },
+    {
+      "number": 44,
+      "german": "vierundvierzig",
+      "english": "forty four"
+    },
+    {
+      "number": 45,
+      "german": "fünfundvierzig",
+      "english": "forty five"
+    },
+    {
+      "number": 46,
+      "german": "sechsundvierzig",
+      "english": "forty six"
+    },
+    {
+      "number": 47,
+      "german": "siebenundvierzig",
+      "english": "forty seven"
+    },
+    {
+      "number": 48,
+      "german": "achtundvierzig",
+      "english": "forty eight"
+    },
+    {
+      "number": 49,
+      "german": "neunundvierzig",
+      "english": "forty nine"
+    },
+    {
+      "number": 50,
+      "german": "fünfzig",
+      "english": "fifty"
+    },
+    {
+      "number": 51,
+      "german": "einundfünfzig",
+      "english": "fifty one"
+    },
+    {
+      "number": 52,
+      "german": "zweiundfünfzig",
+      "english": "fifty two"
+    },
+    {
+      "number": 53,
+      "german": "dreiundfünfzig",
+      "english": "fifty three"
+    },
+    {
+      "number": 54,
+      "german": "vierundfünfzig",
+      "english": "fifty four"
+    },
+    {
+      "number": 55,
+      "german": "fünfundfünfzig",
+      "english": "fifty five"
+    },
+    {
+      "number": 56,
+      "german": "sechsundfünfzig",
+      "english": "fifty six"
+    },
+    {
+      "number": 57,
+      "german": "siebenundfünfzig",
+      "english": "fifty seven"
+    },
+    {
+      "number": 58,
+      "german": "achtundfünfzig",
+      "english": "fifty eight"
+    },
+    {
+      "number": 59,
+      "german": "neunundfünfzig",
+      "english": "fifty nine"
+    },
+    {
+      "number": 60,
+      "german": "sechzig",
+      "english": "sixty"
+    },
+    {
+      "number": 61,
+      "german": "einundsechzig",
+      "english": "sixty one"
+    },
+    {
+      "number": 62,
+      "german": "zweiundsechzig",
+      "english": "sixty two"
+    },
+    {
+      "number": 63,
+      "german": "dreiundsechzig",
+      "english": "sixty three"
+    },
+    {
+      "number": 64,
+      "german": "vierundsechzig",
+      "english": "sixty four"
+    },
+    {
+      "number": 65,
+      "german": "fünfundsechzig",
+      "english": "sixty five"
+    },
+    {
+      "number": 66,
+      "german": "sechsundsechzig",
+      "english": "sixty six"
+    },
+    {
+      "number": 67,
+      "german": "siebenundsechzig",
+      "english": "sixty seven"
+    },
+    {
+      "number": 68,
+      "german": "achtundsechzig",
+      "english": "sixty eight"
+    },
+    {
+      "number": 69,
+      "german": "neunundsechzig",
+      "english": "sixty nine"
+    },
+    {
+      "number": 70,
+      "german": "siebzig",
+      "english": "seventy"
+    },
+    {
+      "number": 71,
+      "german": "einundsiebzig",
+      "english": "seventy one"
+    },
+    {
+      "number": 72,
+      "german": "zweiundsiebzig",
+      "english": "seventy two"
+    },
+    {
+      "number": 73,
+      "german": "dreiundsiebzig",
+      "english": "seventy three"
+    },
+    {
+      "number": 74,
+      "german": "vierundsiebzig",
+      "english": "seventy four"
+    },
+    {
+      "number": 75,
+      "german": "fünfundsiebzig",
+      "english": "seventy five"
+    },
+    {
+      "number": 76,
+      "german": "sechsundsiebzig",
+      "english": "seventy six"
+    },
+    {
+      "number": 77,
+      "german": "siebenundsiebzig",
+      "english": "seventy seven"
+    },
+    {
+      "number": 78,
+      "german": "achtundsiebzig",
+      "english": "seventy eight"
+    },
+    {
+      "number": 79,
+      "german": "neunundsiebzig",
+      "english": "seventy nine"
+    },
+    {
+      "number": 80,
+      "german": "achtzig",
+      "english": "eighty"
+    },
+    {
+      "number": 81,
+      "german": "einundachtzig",
+      "english": "eighty one"
+    },
+    {
+      "number": 82,
+      "german": "zweiundachtzig",
+      "english": "eighty two"
+    },
+    {
+      "number": 83,
+      "german": "dreiundachtzig",
+      "english": "eighty three"
+    },
+    {
+      "number": 84,
+      "german": "vierundachtzig",
+      "english": "eighty four"
+    },
+    {
+      "number": 85,
+      "german": "fünfundachtzig",
+      "english": "eighty five"
+    },
+    {
+      "number": 86,
+      "german": "sechsundachtzig",
+      "english": "eighty six"
+    },
+    {
+      "number": 87,
+      "german": "siebenundachtzig",
+      "english": "eighty seven"
+    },
+    {
+      "number": 88,
+      "german": "achtundachtzig",
+      "english": "eighty eight"
+    },
+    {
+      "number": 89,
+      "german": "neunundachtzig",
+      "english": "eighty nine"
+    },
+    {
+      "number": 90,
+      "german": "neunzig",
+      "english": "ninety"
+    },
+    {
+      "number": 91,
+      "german": "einundneunzig",
+      "english": "ninety one"
+    },
+    {
+      "number": 92,
+      "german": "zweiundneunzig",
+      "english": "ninety two"
+    },
+    {
+      "number": 93,
+      "german": "dreiundneunzig",
+      "english": "ninety three"
+    },
+    {
+      "number": 94,
+      "german": "vierundneunzig",
+      "english": "ninety four"
+    },
+    {
+      "number": 95,
+      "german": "fünfundneunzig",
+      "english": "ninety five"
+    },
+    {
+      "number": 96,
+      "german": "sechsundneunzig",
+      "english": "ninety six"
+    },
+    {
+      "number": 97,
+      "german": "siebenundneunzig",
+      "english": "ninety seven"
+    },
+    {
+      "number": 98,
+      "german": "achtundneunzig",
+      "english": "ninety eight"
+    },
+    {
+      "number": 99,
+      "german": "neunundneunzig",
+      "english": "ninety nine"
+    },
+    {
+      "number": 100,
+      "german": "hundert",
+      "english": "one hundred"
+    }
+  ]
