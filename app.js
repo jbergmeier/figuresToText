@@ -2,7 +2,6 @@ const express = require("express")
 const figureLookup = require("./numberLookup.json")
 require('dotenv').config()
 
-const fig = 14
 const app = express()
 const port = process.env.PORT
 
@@ -46,11 +45,27 @@ const convertFigToText = (figure) => {
             }
             figureText = figureTextTemp + figureLookup.find(a => a.number == (figureArray[1].toString() + figureArray[2].toString())).german
         }
+        else if(figure <= 9999) {
+            const figureArray = figure.toString().split('')
+            let figureTextTemp = ''
+
+            if(figureArray[0] == 1 && figureArray[1] == 1) {
+                figureTextTemp = 'eintausendeinhundert'
+            }
+            else if(figureArray[0] == 1) {
+                figureTextTemp = 'eintausend'
+            }
+            else {
+                figureTextTemp += figureLookup.find(a => a.number == figureArray[0]).german + "tausend"
+                figureTextTemp += figureLookup.find(a => a.number == figureArray[1]).german + "hundert"
+            }
+            figureText = figureTextTemp + figureLookup.find(a => a.number == (figureArray[2].toString() + figureArray[3].toString())).german
+        }
         else{
-            throw new Error("Zahl ist größer als 1000")
+            throw new Error("Zahl ist größer als 9999")
         }
 
-        console.log(`The number you entered is ${figure} - ${figureText}`)
+        console.log(`${Date()} - Requested: ${figure} - ${figureText}`)
         return figureText
     }
     catch(err){
@@ -58,9 +73,6 @@ const convertFigToText = (figure) => {
         return err.message
     }
 }
-
-convertFigToText(fig)
-
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
