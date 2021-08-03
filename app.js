@@ -1,9 +1,10 @@
 const express = require("express")
 const figureLookup = require("./numberLookup.json")
+require('dotenv').config()
 
 const fig = 14
 const app = express()
-const port = 3000
+const port = process.env.PORT
 
 app.get('/api/v3/de/:number', (req, res) => {
     const enteredNumber = req.params.number
