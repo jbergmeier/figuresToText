@@ -54,6 +54,7 @@ const convertFigToText = (figure) => {
             }
             else if(figureArray[0] == 1) {
                 figureTextTemp = 'eintausend'
+                figureTextTemp += figureLookup.find(a => a.number == figureArray[1]).german + "hundert"
             }
             else {
                 figureTextTemp += figureLookup.find(a => a.number == figureArray[0]).german + "tausend"
