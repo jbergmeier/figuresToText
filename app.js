@@ -6,9 +6,18 @@ const fig = 14
 const app = express()
 const port = process.env.PORT
 
+/*
+    TODO: Errorhandling API/Express
+    TODO: English Text Implemenation
+    TODO: Opt - Other Languages
+*/
+
 app.get('/api/v3/de/:number', (req, res) => {
     const enteredNumber = req.params.number
-    res.json(convertFigToText(enteredNumber))
+    res.json({
+        number: enteredNumber,
+        germanText: convertFigToText(enteredNumber)
+    })
 })
 
 const convertFigToText = (figure) => {
