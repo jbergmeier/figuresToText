@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000
     TODO: Errorhandling API/Express
     TODO: English Text Implemenation
     TODO: Opt - Other Languages
+    Todo: deployment
 */
 
 app.get('/', (req, res) => {
