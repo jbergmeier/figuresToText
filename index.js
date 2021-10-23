@@ -3,13 +3,18 @@ const figureLookup = require("./numberLookup.json")
 require('dotenv').config()
 
 const app = express()
-const port = process.env.PORT
+const port = process.env.PORT || 5000
 
 /*
     TODO: Errorhandling API/Express
     TODO: English Text Implemenation
     TODO: Opt - Other Languages
 */
+
+app.get('/', (req, res) => {
+    console.log("root page called")
+    res.send("Root is not in use")
+})
 
 app.get('/api/v3/de/:number', (req, res) => {
     const enteredNumber = req.params.number
