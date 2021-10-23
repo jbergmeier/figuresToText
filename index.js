@@ -11,10 +11,11 @@ const port = process.env.PORT || 5000
     TODO: Opt - Other Languages
     Todo: deployment
 */
+var datetime = new Date();
 
 app.get('/', (req, res) => {
     console.log("root page called")
-    res.send("Root is not in use")
+    res.send("Root is not in use!. Current Date is: " + datetime.toISOString().slice(0,10))
 })
 
 app.get('/api/v3/de/:number', (req, res) => {
