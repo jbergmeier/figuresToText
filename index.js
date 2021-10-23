@@ -6,7 +6,7 @@ require('dotenv').config()
 const app = express()
 const port = process.env.PORT || 5000
 var corsOptions = {
-    origin: 'https://webcoffee.io',
+    origin: 'https://webcoffee.com',
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
   }
 app.use(cors(corsOptions))
